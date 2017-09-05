@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>应用拓扑配置</title>
+</head>
+<link href="css/application.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>应用拓扑配置</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <table class="table table-hover sorted_table" id="table">
+                <thead>
+                <tr data-tabullet-map="id">
+                    <th width="50" data-tabullet-map="_index" data-tabullet-readonly="true">No</th>
+                    <th data-tabullet-map="deviceType" data-tabullet-type="select">设备类型</th>
+                    <th data-tabullet-map="deviceName">设备名称</th>
+                    <th data-tabullet-map="deviceIp">设备IP</th>
+                    <th data-tabullet-map="deviceInPort">入端口</th>
+                    <th data-tabullet-map="deviceOutPort">出端口</th>
+                    <th data-tabullet-map="deviceInIp">入IP</th>
+                    <th data-tabullet-map="deviceOutIp">出IP</th>
+                    <th width="50" data-tabullet-type="edit"></th>
+                    <th width="50" data-tabullet-type="delete"></th>
+                </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/Tabullet.js"></script>
+<script type="text/javascript" src="js/jquery-sortable.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
