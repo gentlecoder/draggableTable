@@ -51,7 +51,8 @@
                     .attr('data-tabullet-type', 'save')
                     .appendTo(insertRow);
                 td.find('button').click(function (event) {
-                    var saveData = [];
+                    // var saveData = [];
+                    var saveData = {};
                     var rowParent = td.closest('tr');
                     var rowChildren = rowParent.find('input');
                     $(rowChildren).each(function (ri, rv) {
@@ -61,6 +62,7 @@
                     $(rowSelectChildren).each(function (ri, rv) {
                         saveData[$(rv).attr('name')] = $(rv).val();
                     });
+                    // saveData[_index] =
                     options.action('save', saveData);
                     return;
                 });
@@ -103,7 +105,8 @@
                         .appendTo(tr);
                     td.find('button').click(function (event) {
                         if ($(this).attr('data-mode') === 'edit') {
-                            var editData = [];
+                            // var editData = [];
+                            var editData = {};
                             var rowParent = td.closest('tr');
                             var rowChildren = rowParent.find('input');
                             $(rowChildren).each(function (ri, rv) {
