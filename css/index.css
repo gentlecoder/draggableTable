@@ -2,10 +2,6 @@ body {
     background-color: #fafafa;
 }
 
-.container {
-    margin: 150px auto;
-}
-
 body.dragging, body.dragging * {
     cursor: move !important;
 }
@@ -31,4 +27,54 @@ select {
     border-radius: 3px;
     border: 1px solid #cccccc;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.clear-both {
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn-margin {
+    margin: 0px 8px;
+}
+
+.health-container {
+    width: 100%;
+    height: 350px;
+}
+
+.topo-device {
+    display: inline;
+}
+
+.container-header {
+    display: inline-block;
+    border: 3px solid #dedede;
+    border-radius: 5px;
+    padding: 5px 40px;
+    margin: 20px 0;
+    font-size: 19px;
+    font-weight: bold;
+    color: #696a69;
+}
+
+.grian-choose {
+    float: right;
+    margin-top: 25px;
+}
+
+.grain-choose-text {
+    font-size: 15px;
+    color: #074f94;
+    margin-right: 10px;
+}
+
+.grain-choose-select {
+    border-radius: 10px;
+    width: 111px;
+    padding-left: 30px;
+    background-color: #f0f3f7;
 }
