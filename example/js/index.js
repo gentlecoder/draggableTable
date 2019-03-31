@@ -1,5 +1,5 @@
 /**
- * Created by 10206072 on 2017/9/4.
+ * Created by gentlecoder on 2017/9/4.
  */
 $(function() {
   var PATH = "/a",

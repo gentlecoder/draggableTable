@@ -1,5 +1,5 @@
 /**
- * Created by dyc on 9/4/2017.
+ * Created by gentlecoder on 9/4/2017.
  */
 // <reference path="../typings/browser/ambient/jquery/jquery.d.ts"/>
 (function($) {
